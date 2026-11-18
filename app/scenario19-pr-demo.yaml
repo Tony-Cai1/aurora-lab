@@ -29,7 +29,7 @@ metadata:
 data:
   default.conf: |
     upstream api {
-        server api:8000;
+        server api:8080;
     }
     server {
         listen 80;
